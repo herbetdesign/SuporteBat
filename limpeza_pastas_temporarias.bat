@@ -1,7 +1,6 @@
 @echo off
 chcp 65001 >nul
 
-:: Verifica permissões de administrador e eleva o script
 net session >nul 2>&1
 if %errorLevel% neq 0 (
     echo Solicitando privilégios de administrador...
