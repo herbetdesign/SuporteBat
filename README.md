@@ -9,3 +9,14 @@ Automaticamente, o passo-a-passo do programa é:
 * Exclusão robusta - apaga arquivos recursivamente e remove subpastas vazias após a limpeza. 
 * Tratamento de erros - informa falhas específicas em cada etapa. 
 * Reinicialização do Explorer - restaura a interface após fechar processos. 
+
+## 2º. Verificação de Disco CHKDSK (verificacao_disco.bat) 
+#### Script .bat para verificar e corrigir erros em discos rígidos
+Automaticamente, o passo-a-passo do programa é:
+* Prevenção de falhas : Identifica e corrige erros lógicos (ex: tabela de alocação corrompida) e físicos (setores defeituosos). 
+* Segurança : O parâmetro /r previne perda de dados ao tentar recuperar informações de setores danificados. 
+* Praticidade : Automatiza a verificação sem exigir conhecimento técnico avançado.
+
+⚠️ Atenção : 
+* O parâmetro /r pode demorar horas em discos grandes. Use em janelas de manutenção. 
+* Se o disco estiver em uso (ex: sistema), a verificação ocorrerá após reiniciar o PC
