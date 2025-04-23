@@ -20,3 +20,11 @@ Automaticamente, o passo-a-passo do programa é:
 ⚠️ Atenção : 
 * O parâmetro /r pode demorar horas em discos grandes. Use em janelas de manutenção. 
 * Se o disco estiver em uso (ex: sistema), a verificação ocorrerá após reiniciar o PC
+
+## 3º. Desfragmentação de Disco Avançada (desfragmentacao_disco.bat) 
+#### Script .bat para otimização profunda de unidades HDD/SSD no Windows
+Automaticamente, o passo-a-passo do programa é:
+* Otimização profunda : Força desfragmentação mesmo em discos com baixo espaço livre. 
+* Ignora SSDs : Evita desgaste desnecessário em unidades de estado sólido.
+* Logs detalhados : Gera relatórios em .txt para auditoria. 
+* Agendamento automático : Se o disco estiver em uso, a tarefa é marcada para a próxima reinicialização.
